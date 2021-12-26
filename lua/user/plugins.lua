@@ -105,6 +105,15 @@ return packer.startup(function(use)
   use 'goolord/alpha-nvim'
   use "antoinemadec/FixCursorHold.nvim"
 
+  -- Ember JS
+  use 'AndrewRadev/ember_tools.vim'
+  use 'joukevandermaas/vim-ember-hbs'
+  use 'sukima/vim-javascript-imports'
+  use {
+    'sukima/vim-ember-imports',
+    after = 'vim-ember-imports'
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
