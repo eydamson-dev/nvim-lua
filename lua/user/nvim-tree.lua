@@ -53,7 +53,7 @@ nvim_tree.setup {
   auto_close = true,
   open_on_tab = false,
   hijack_cursor = false,
-  update_cwd = true,
+  -- update_cwd = true, Disabled bec. of error 'gf' command error with ember tools
   update_to_buf_dir = {
     enable = true,
     auto_open = true,
