@@ -111,7 +111,7 @@ return packer.startup(function(use)
   use 'sukima/vim-javascript-imports'
   use {
     'sukima/vim-ember-imports',
-    after = 'vim-ember-imports'
+    after = 'vim-javascript-imports'
   }
 
   -- Automatically set up your configuration after cloning packer.nvim
