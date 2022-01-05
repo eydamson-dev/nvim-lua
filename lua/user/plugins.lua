@@ -47,6 +47,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "folke/which-key.nvim"
   use "karb94/neoscroll.nvim"
+  use "Pocco81/TrueZen.nvim"
 
   -- comments
   use "numToStr/Comment.nvim" -- Easily comment stuff
