@@ -92,7 +92,10 @@ local mappings = {
   ["f"] = { "<cmd> Telescope find_files<cr>", "Find files" },
   ["F"] = { "<cmd>Telescope live_grep", "Find Text" },
   ["P"] = { "<cmd>Telescope projects<cr>", "Projects" },
-
+  ["z"] = {
+    "<cmd>TZAtaraxis<CR>",
+    "Zen mode"
+  },
   p = {
     name = "Packer",
     c = { "<cmd>PackerCompile<cr>", "Compile" },
