@@ -18,6 +18,7 @@ require "user.alpha"
 require "user.whichkey"
 require "user.truezen"
 require "user.neoscroll"
+require "user.emmet"
 
 vim.cmd([[
   " WSL yank support

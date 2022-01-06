@@ -48,6 +48,7 @@ return packer.startup(function(use)
   use "folke/which-key.nvim"
   use "karb94/neoscroll.nvim"
   use "Pocco81/TrueZen.nvim"
+  use "mattn/emmet-vim"
 
   -- comments
   use "numToStr/Comment.nvim" -- Easily comment stuff
