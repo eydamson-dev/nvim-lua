@@ -100,7 +100,8 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
 
   -- Terminal UI
-  use "akinsho/toggleterm.nvim"
+  -- use "akinsho/toggleterm.nvim"
+  use "voldikss/vim-floaterm"
 
   -- Project management
   use "ahmedkhalf/project.nvim"
