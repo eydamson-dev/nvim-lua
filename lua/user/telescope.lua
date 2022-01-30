@@ -24,7 +24,6 @@ telescope.setup {
 --    path_display = { "smart" },
 
     layout_config = {
-     preview_width = 0.6,
       width = 0.95,
       horizontal = {
         mirror = false,
